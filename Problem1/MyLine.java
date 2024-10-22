@@ -93,7 +93,7 @@ public class MyLine {
     public double getLength() {
         return begin.distance(end);
     }   
-
+    
     public double getGradient() {
         int xDiff = end.getX() - begin.getX();
         int yDiff = end.getY() - begin.getY();
