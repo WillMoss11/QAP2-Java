@@ -89,7 +89,7 @@ public class MyLine {
         end.setXY(x, y);
     }
 
-        // tyo use mypoint's distance
+       
     public double getLength() {
         return begin.distance(end);
     }   
